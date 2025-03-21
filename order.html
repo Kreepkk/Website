@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short icon" href="image/logogo.png">
+    <title>Eutopic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+</head>
+
+<body>
+
+  <!--Navigation Bar-->
+
+<section>
+    <nav>
+
+        <div class="logo">
+            <img src="image/logogo.png" alt = "logo" height="70" width = "200" >
+          </div>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="books.html">Books&nbsp;</a></li>
+            <li><a href="order.html">Order</a></li>
+          </ul>
+
+          <div class="social_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+
+    </nav>
+    <!--Banner-->
+    <div class="order_banner">
+      <h1>Order<span>Now</span></h1>
+  </div>
+  <!--Order-->
+  <div class="row">
+    <div class="col-25">
+        <div class="container">
+          <h4>Select Products
+            <span class="price" style="color:black">
+              <i class="fa fa-shopping-cart"></i>
+              <b>4</b>
+            </span>
+          </h4>
+          <label for="books"></label>
+
+          <select name="books" id="books">
+          <option value="The Silent Patient">The Silent Patient</option>
+          <option value="Livid">Livid</option>
+          <option value="The Last Orphan">The Last Orphan</option>
+          <option value="The Sick Bay">The Sick Bay</option>
+          <option value="The Sick Bay">Almond</option>
+          </select>
+
+          <hr>
+          <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+        </div>
+    </div>
+    <div class="col-75">
+        <div class="container">
+            <form action="/action_page.php">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="Sydney">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="NSW">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Postcode</label>
+                      <input type="text" id="postcode" name="postcode" placeholder="2218">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa-brands fa-cc-visa" style="color: #000080;"></i>
+                    <i class="fa-brands fa-cc-mastercard" style="color: #66a8db;"></i>
+                    <i class="fa-brands fa-cc-discover"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <input type="reset" value="Reset Fields" class="reset_btn">
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr" class="shipping"> Shipping address same as billing
+              </label>
+               <input type="submit" value="Continue to Checkout" class="checkout_btn">
+            </form>
+        </div>
+    </div>  
+  </div>
+<!--Footer-->
+<div class="footer_order">
+<footer>
+  <div class="footer_main">
+      <div class="tag">
+          <img src="image/logogo.png" alt="logo">
+          <p>
+              Eutopic contains all most all new, recent books and old books ranging from various topics including manga, historical, fantasy and many more. With low cost, you get a range of knowledge.
+          </p>
+
+      </div>
+      <div class="tag">
+          <h1>Quick link</h1>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="books.html">Books</a>
+          <a href="order.html">Order</a>
+      </div>
+
+      <div class="tag">
+          <h1>Contact Info</h1>
+          <a href="#"><i class="fa-solid fa-phone"></i>+94 12 345 6789</a>
+          <a href="#"><i class="fa-solid fa-phone"></i>+94 32 444 699</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i> eutopic@gmail.com</a>
+      </div>
+
+      <div class="tag">
+          <h1>Follow Us</h1>
+          <div class="social_link">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+      </div>
+
+      <div class="tag">
+          <h1>Newsletter</h1>
+          <div class="search_bar">
+              <input type="text" placeholder="Your email ID here">
+              <button type="submit">Subscribe</button>
+          </div>
+      </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>
